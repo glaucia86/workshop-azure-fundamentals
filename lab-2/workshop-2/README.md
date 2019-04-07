@@ -37,4 +37,4 @@ Caso desejam visualizar a demo em produção, com a integração com Azure & Cos
 
 Se tiverem alguma dúvida referente ao código desenvolvido ou para configurar o ambiente bastam criar uma **[ISSUE](https://github.com/glaucia86/workshop-azure-fundamentals/issues)** no GitHub que estarei respondendo a vocês!! :heart: :heart: :heart: :blush:
 
-_Código baseado no projeto do Scotch.io. Porém com alterações e melhorias no código. [Node Todo App by scotch.io](https://github.com/scotch-io/node-todo)_
+_Código baseado no projeto do Scotch.io. Porém com alterações significativas e com muitas melhorias no código. [Node Todo App by scotch.io](https://github.com/scotch-io/node-todo)_
