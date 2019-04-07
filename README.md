@@ -37,7 +37,7 @@ Durante o workshop estaremos trabalhando com 3 Laboratórios, que tem como princ
 
 Nessa seção aprenderemos todos os conceitos básicos do Azure! A qual começaremos a mostrar os principais e **[diferentes recursos disponíveis no Azure](https://aka.ms/AA4q78c)**. Após isso, realizaremos uma demo como acessar o **[Portal Azure](https://aka.ms/AA4qm7a)** e o **[Azure Cloud Shell](https://aka.ms/AA4qm8j)**
 
-### [2 - Hospedagem de Aplicações Web no Azure: Laboratório 2 - TODO List MEAN (Mongo, Express, Angular & Node.js)](lab-02/02-hospedagem-webapp-azure.md)
+### [2 - Hospedagem de Aplicações Web no Azure: Laboratório 2 - TODO List MEAN (Mongo, Express, Angular & Node.js)](lab-2/02-hospedagem-webapp-azure.md)
 
 Nessa seção implantaremos nossa primeira aplicação Web aos serviços Azure usando o **[Azure App Service](https://aka.ms/AA4qm7c)** integrado com o **[CosmosDb](https://aka.ms/AA4qm7e)**
 
