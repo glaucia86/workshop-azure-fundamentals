@@ -18,12 +18,12 @@ Para os laboratórios que iremos realizar, precisaremos ter instalado em suas m�
 - **[MongoDb Compass GUI](https://www.mongodb.com/download-center/compass)**
 - **[Cadastro Site Azure](http://bit.ly/2I7Kj8u)**
 
-## Sobre o Workshop
+## Sobre o Workshop 📌
 
 O objetivo principal desse Workshop é ensinar os Conceitos Fundamentais do Azure. Como por exemplo: como criar uma conta no **[Portal Azure](https://aka.ms/AA4qm7a)**, como hospedar uma Aplicação Web no **[Azure App Service](https://aka.ms/AA4qm7c)** e no final estaremos ensinando como integrar um **[Azure Bot Service](https://aka.ms/AA4qm7p)**, ChatBot, com a plataforma do **[LUIS](https://aka.ms/AA4pzn2)**
 
 
-## Laboratórios
+## Laboratórios 💻
 
 Durante o workshop estaremos trabalhando com 3 Laboratórios, que tem como principal objetivo integrar as aplicações e serviços na plataforma Azure.
 
@@ -31,7 +31,7 @@ Durante o workshop estaremos trabalhando com 3 Laboratórios, que tem como princ
 - **[Laboratório 2 - TODO List MEAN](./lab-2/workshop-2)**
 - **[Laboratório 3 - Pedido de Pizzas SampaMais](./lab-3/workshop-3)**
 
-## Agenda
+## Agenda 📓
 
 ### [1 - Introdução ao Azure: Laboratório 1 - Criando Conta no Azure](lab-1/01-introducao-azure.md)
 
