@@ -7,7 +7,7 @@
     "dev": "nodemon",
     "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix",
     "prepush": "npm run lint"
-  },,
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/glaucia86/workshop-azure-fundamentals.git"

@@ -44,3 +44,7 @@ Nessa seção implantaremos nossa primeira aplicação Web aos serviços Azure u
 ### [3 - Serviços Cognitivos: Laboratório 3 - ChatBot Pedido de Pizzas SampaMais](lab-3/03-servicos-cognitivos-azure.md)
 
 Nessa seção, estaremos aprendendo a como incluir um pouco de I.A em nossas aplicações. Para isso, usaremos o **[Azure Bot Service](https://aka.ms/AA4qm7p)** e integraremos o nosso ChatBot ao **[Serviço Cognitivo](https://aka.ms/AA4qm7k)** de Processamento de Linguagem Natural chamado **[LUIS](https://aka.ms/AA4qm7q)**
+
+## Dúvidas?! ❓
+
+Se tiverem alguma dúvida referente ao código desenvolvido ou para configurar o ambiente bastam criar uma **[ISSUE](https://github.com/glaucia86/workshop-azure-fundamentals/issues)** no GitHub que estarei respondendo a vocês!! :heart: :heart: :heart: :blush:
