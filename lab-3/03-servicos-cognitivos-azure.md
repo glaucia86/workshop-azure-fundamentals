@@ -4,5 +4,5 @@
 
 Nesse laboratório estaremos integrando um **[Azure Bot Service](https://aka.ms/AA4qm7p)** de pedido de Pizzas ao **[Serviço Cognitivo](https://aka.ms/AA4qm7k)** de Processamento de Linguagem Natural chamado **[LUIS](https://aka.ms/AA4qm7q)**
 
-## ## Agenda - Lab 03
+## Agenda - Lab 03
 
