@@ -6,7 +6,11 @@ Nesse laboratório estaremos integrando um **[Azure Bot Service](https://aka.ms/
 
 ## Agenda - Lab 03
 
-## 1. Criando um modelo no LUIS
+- **[1. Criando Conta no LUIS](#1-criando-conta-no-luis)**
+
+- **[2. Criando uma App no LUIS](#2-criando-uma-app-no-luis)**
+
+## 1. Criando Conta no LUIS.ai
 
 1. Abram o site do [LUIS.ai](https://aka.ms/AA4q8w1)
 
@@ -32,7 +36,9 @@ A aparência do site do LUIS é como demonstra na figura abaixo:
 
 [![Screen-Shot-04-08-19-at-08-30-PM.png](https://i.postimg.cc/MpVDXZPv/Screen-Shot-04-08-19-at-08-30-PM.png)](https://postimg.cc/87kW0GVS)
 
-## 2. Criando os modelos no LUIS
+## 2. Criando uma App no LUIS:
+
+1. 
 
 
 
