@@ -2,7 +2,7 @@
   "name": "mean-app-todo-list",
   "version": "1.0.0",
   "description": "Aplicação TODO List em MEAN para realização da demo.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix",
