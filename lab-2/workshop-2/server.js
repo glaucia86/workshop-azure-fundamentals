@@ -18,7 +18,7 @@ const port = process.env.PORT || 8000;
 const database = require('./config/database'); // conexão local com o MongoDb
 
 // mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true });
-mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true }); // Aqui estamos fazendo a conexão com o MongoDb de maneira local:
+mongoose.connect(database.local.localUrl, { useNewUrlParser: true }); // Aqui estamos fazendo a conexão com o MongoDb de maneira local:
 
 app.use(express.static('./front-end'));
 app.use(morgan('dev'));
