@@ -9,7 +9,7 @@
 module.exports = {
   local:
   {
-    localUrl: 'mongodb://localhost/workshop-ms-hackathon',
+    localUrl: 'mongodb://localhost/workshop-lab2',
   },
 
   /* cosmosdb: (o ideal é criar um outro arquivo para colocar as connectionstring e colocar
@@ -17,8 +17,8 @@ module.exports = {
     Ex.: https://docs.microsoft.com/pt-br/azure/cosmos-db/mongodb-migrate
     p.s.: depois descomentar a linha config do .gitignore
   {
-    name: 'node-todo-hackathon',
-    url: '<incluir-a-connection-string-cosmosdb>',
+    name: 'node-todo-hackathon-db',
+    url: ''mongodb://mean-todo-list-workshop:<colocar-connection-string-aqui>@mean-todo-list-workshop.documents.azure.com:10255/workshop-lab2?ssl=true',',
     port: 10255,
   }, */
 };
