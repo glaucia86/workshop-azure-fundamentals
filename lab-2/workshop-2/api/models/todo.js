@@ -1,7 +1,7 @@
 /**
  * Arquivo: models/todo.js
  * Descrição: Arquivo responsável pelo modelo da classe 'Todo'
- * Data: 07/04/2019
+ * Data:  07/04/2019
  * Author: Glaucia Lemos
  */
 

@@ -1,7 +1,7 @@
 /**
  * Arquivo: js/controllers/main.js
  * Descrição: Arquivo responsável pela integração da api back com o Front
- * Data: 07/04/2019
+ * Data: 24/01/2019
  * Author: Glaucia Lemos
  */
 

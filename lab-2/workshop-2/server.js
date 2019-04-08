@@ -13,12 +13,11 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override'); // esse pacote iremos simular os HTTPs: DELETE & PUT
 
 const port = process.env.PORT || 8000;
+// const database = require('./config/databaseCosmosDb'); // conexao base de dados CosmosDb
+const database = require('./config/database'); // conexão local com o base de dados MongoDb
 
-// const database = require('./config/databaseCosmosDb'); // conexão com o CosmosDb
-const database = require('./config/database'); // conexão local com o MongoDb
-
-// mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true });
-mongoose.connect(database.local.localUrl, { useNewUrlParser: true }); // Aqui estamos fazendo a conexão com o MongoDb de maneira local:
+// mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true }); // conexao base de dados CosmosDb
+mongoose.connect(database.local.localUrl, { useNewUrlParser: true }); // conexão local com o base de dados MongoDb
 
 app.use(express.static('./front-end'));
 app.use(morgan('dev'));
