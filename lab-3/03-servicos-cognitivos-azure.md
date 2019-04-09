@@ -18,6 +18,8 @@ Nesse laboratório estaremos integrando um **[Azure Bot Service](https://aka.ms/
 
 - **[6. Conectando o LUIS com ChatBot](#6-conectando-o-luis-com-chatbot)**
 
+- **[7. Palavras Finais](#7-palavras-finais)**
+
 
 ## 1. Criando Conta no LUIS.ai
 
@@ -169,7 +171,7 @@ LUIS_MODEL_URL=<cole-aqui-o-endpoint-criado-no-luis>
 
 [![bot-builder-3.gif](https://s2.gifyu.com/images/bot-builder-3.gif)](https://gifyu.com/image/3oZe)
 
-## Palavras Finais
+## 7. Palavras Finais
 
 Nesse laboratório, você pôde ser capaz em aprender sobre/como:
 

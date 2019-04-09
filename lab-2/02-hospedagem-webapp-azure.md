@@ -6,4 +6,67 @@ Nesse Laboratório estaremos integrando uma aplicação MEAN (Mongo, Express, An
 
 ## Agenda - Lab 02
 
+- **[1. Executando a Aplicação MEAN](#1-executando-a-aplicação-mean)**
+
+- **[2. Colocando a Base de Dados na Nuvem com CosmosDb](#2-colocando-a-base-de-dados-na-nuvem-com-cosmosdb)**
+
+
+## 1. Executando a Aplicação MEAN
+
+1. Depois de ter o MongoDb devidamente instalado na sua máquina, execute o comando `mongod` no prompt comando. Se aparecer a mensagem abaixo é porque o **MongoDb** está executando corretamente na sua máquina.
+
+[![Screen-Shot-04-08-19-at-10-36-PM.png](https://i.postimg.cc/j2C6TPkJ/Screen-Shot-04-08-19-at-10-36-PM.png)](https://postimg.cc/rRXRC0T8)
+
+2. Agora, vai até a pasta: `lab-2\workshop2` e execute o comando: 
+
+```
+> npm run dev
+```
+
+[![Screen-Shot-04-08-19-at-10-39-PM.png](https://i.postimg.cc/d04T0DCR/Screen-Shot-04-08-19-at-10-39-PM.png)](https://postimg.cc/hJQGyDph)
+
+3. Feio isso, abre o browser em: `http://localhost:8000/` e comece a incluir algumas tarefas nessa lista
+
+[![Screen-Shot-04-08-19-at-10-43-PM.png](https://i.postimg.cc/QMHWHhJR/Screen-Shot-04-08-19-at-10-43-PM.png)](https://postimg.cc/qtH7FfYL)
+
+4. Agora abre o **[MongoDb Compass GUI](https://www.mongodb.com/download-center/compass)** e veja se as tarefas que acabamos de incluir foram persistidas no MongoDb. Se aparecer o banco: `workshop-lab2`. É porque foi persistido as nossas tarefas nesse Banco
+
+[![imagem-1.jpg](https://i.postimg.cc/J76VQ8NT/imagem-1.jpg)](https://postimg.cc/xqz40WFH)
+
+Observem que, tudo o que incluímos no browser, está gravando no MongoDb
+
+[![Screen-Shot-04-08-19-at-10-45-PM.png](https://i.postimg.cc/q7XW6HBx/Screen-Shot-04-08-19-at-10-45-PM.png)](https://postimg.cc/67qMFSv8)
+
+
+## 2. Colocando a Base de Dados na Nuvem com CosmosDb
+
+Uma das maiores vantagens de trabalhar com **[CosmosDb](https://aka.ms/AA4qm7e)** é que podemos persistir esses dados direto na nuvem, sem a necessidade de executar o MongoDb. Mas, como fazemos isso? É o que iremos ver agora!
+
+1. Abre o **[Portal Azure](https://aka.ms/AA4qm7a)** com as mesmas credenciais criadas no laboratório 1
+
+2. Ao conectar com o Portal, vocês verão uma tela como da imagem abaixo:
+
+[![Screen-Shot-04-08-19-at-10-58-PM.png](https://i.postimg.cc/Gp6w1xpZ/Screen-Shot-04-08-19-at-10-58-PM.png)](https://postimg.cc/VS9HqMnR)
+
+3. Dentro do portal, abram o **[Azure Cloud Shell](https://aka.ms/AA4q1kr)**
+
+[![imagem-1.jpg](https://i.postimg.cc/pVhY0N3W/imagem-1.jpg)](https://postimg.cc/yWKZdGVt)
+
+4. Altere para o **Power Shell**
+
+[![Screen-Shot-04-09-19-at-12-00-AM.png](https://i.postimg.cc/x878BFZB/Screen-Shot-04-09-19-at-12-00-AM.png)](https://postimg.cc/xNv9zgnP)
+
+5. Agora com o Power Shell aberto, vamos criar um **[Resource Group](https://aka.ms/AA4qh09)**. Para isso, digite o comando abaixo no Power Shell:
+
+```
+> az group create --name testeResourceGroupWorkshop --location "Brazil South"
+``` 
+
+
+
+
+
+
+
+
 
