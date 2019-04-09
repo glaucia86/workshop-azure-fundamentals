@@ -12,9 +12,9 @@ Nesse Laboratório estaremos integrando uma aplicação MEAN (Mongo, Express, An
 
 - **[3. Migrando a Base de Dados Local para Nuvem com CosmosDb](#3-migrando-a-base-de-dados-local-para-nuvem-com-cosmosdb)**
 
-- **[4. Importando os dados localmente do MongoDb para o CosmosDb](#3-importando-os-dados-localmente-do-mongodb- para-o-cosmosdb)**
+- **[4. Importando os dados localmente do MongoDb para o CosmosDb](#4-importando-os-dados-localmente-do-mongodb-para-o-cosmosdb)**
 
-- **[5. Hospedando Aplicação MEAN na Nuvem com Azure]()**
+- **[5. Hospedando Aplicação MEAN na Nuvem com Azure](#5-hospedando-aplicação-mean-na-nuvem-com-azure)**
 
 
 ## 1. Executando a Aplicação MEAN
