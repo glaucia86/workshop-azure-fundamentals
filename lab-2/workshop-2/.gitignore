@@ -10,4 +10,6 @@ npm-debug.log
 .LSOverride
 
 # DB Connection String
+# no momento de realizar o commit final do projeto executar o comando abaixo:
+# git rm lab-2/workshop-2/config/databaseCosmosdb.js
 config/
