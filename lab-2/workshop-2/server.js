@@ -13,6 +13,7 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override'); // esse pacote iremos simular os HTTPs: DELETE & PUT
 
 const port = process.env.PORT || 8000;
+
 // const database = require('./config/databaseCosmosDb'); // conexao base de dados CosmosDb
 const database = require('./config/database'); // conexão local com o base de dados MongoDb
 
