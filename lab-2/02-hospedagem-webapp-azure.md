@@ -248,7 +248,9 @@ E depois executar o comando:
 > git push azure master
 ```
 
-7. Agora abre a url da aplicação: `https://teste-todo-workshop.azurewebsites.net`
+7. Agora abre a url da aplicação: `https://teste-todo-workshop.azurewebsites.net` e vejam o resultado
+
+
 
 
 
