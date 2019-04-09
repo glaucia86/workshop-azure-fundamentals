@@ -107,8 +107,35 @@ Nós vamos precisar do **Primary Password**. Assim que, copie e cole essa chave!
 
 5. Agora, vamos incluir o Banco local **MongoDb** nessa connectionString. no final ela ficará dessa maneira (**após a porta 10255**)
 
+```js
+url: 'mongodb://<cosmosdb_name>:<primary_master_key>@<cosmosdb_name>.documents.azure.com:10255/workshop-lab2?ssl=true',
 ```
-> url: 'mongodb://<cosmosdb_name>:<primary_master_key>@<cosmosdb_name>.documents.azure.com:10255/workshop-lab2?ssl=true',
+
+E incluir a porta: 10255, conforme o código abaixo:
+
+**database.js**
+
+```js
+module.exports = {
+  local:
+  {
+    localUrl: 'mongodb://localhost/workshop-lab2',
+  },
+
+  cosmosdb: {
+    name: 'node-teste-workshop',
+    url: 'mongodb://<cosmosdb_name>:<primary_master_key>@<cosmosdb_name>.documents.azure.com:10255/workshop-lab2?ssl=true',
+    port: 10255,
+  },
+};
+```
+
+6. Vamos agora abrir o arquivo `server.js` e alterar a chamada da conexão da base de dados do CosmosDb para a nossa aplicação
+
+**index.js**
+
+```js
+mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true }); // conexao base de dados CosmosDb
 ```
 
 

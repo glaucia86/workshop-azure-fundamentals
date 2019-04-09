@@ -10,6 +10,7 @@ Para os laboratórios que iremos realizar, precisaremos ter instalado em suas m�
 
 - **[VS Code](http://bit.ly/2IhTeUb)**
 - **[Node.js](https://nodejs.org/en/)**
+- **[Git](https://git-scm.com/)**
 - **[Azure Bot Service](https://aka.ms/AA4qm7p)**
 - **[Azure App Service](https://aka.ms/AA4qm7c)**
 - **[Serviços Cognitivos](https://aka.ms/AA4qm7k)**
