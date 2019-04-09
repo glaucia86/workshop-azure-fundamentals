@@ -11,14 +11,8 @@ module.exports = {
   {
     localUrl: 'mongodb://localhost/workshop-lab2',
   },
-
-  /* cosmosdb: (o ideal é criar um outro arquivo para colocar as connectionstring e colocar
-    no .gitignore para que não que não fique exposto a sua key da connection string)
-    Ex.: https://docs.microsoft.com/pt-br/azure/cosmos-db/mongodb-migrate
-    p.s.: depois descomentar a linha config do .gitignore
-  {
-    name: 'node-todo-hackathon-db',
-    url: ''mongodb://mean-todo-list-workshop:<colocar-connection-string-aqui>@mean-todo-list-workshop.documents.azure.com:10255/workshop-lab2?ssl=true',',
-    port: 10255,
-  }, */
+  cosmosdb: {
+    name: 'node-teste-workshop',
+    url: 'mongodb://node-teste-workshop:gNh5isbOlnVnIQ6CYfroiWY9nJXgTCy3eANP5zl6WDwlew5JKdTVvjPMOoVEvthAf3wzgqBDYMlRNA1zBGlxZg%3D%3D@node-teste-workshop.documents.azure.com:10255/workshop-lab2?ssl=true',
+  },
 };

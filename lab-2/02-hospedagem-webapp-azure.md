@@ -91,11 +91,27 @@ Ao executar o comando acima, ele vai nos mostrar as chaves
 
 [![Screen-Shot-04-09-19-at-10-45-AM.png](https://i.postimg.cc/yNTbsCYw/Screen-Shot-04-09-19-at-10-45-AM.png)](https://postimg.cc/JyGq5gXq)
 
-Há uma maneira mais simples de listar essas keys. Observem no gif abaixo como
+Há uma maneira mais simples de listar essas keys. Observem no gif abaixo: (passo: `CosmosDb -> BD Criado -> ConnectionStrings`)
 
 [![workshop-1.gif](https://s2.gifyu.com/images/workshop-1.gif)](https://gifyu.com/image/31Vt)
 
 Nós vamos precisar do **Primary Password**. Assim que, copie e cole essa chave! 
+
+3. Agora vamos pegar a connectionString do CosmosDb. Para isso, bastam seguir o gif abaixo: (passo: `CosmosDb -> BD Criado -> Linguagem Usada: Node.js -> QuickStart`)
+
+[![workshop-2.gif](https://s2.gifyu.com/images/workshop-2.gif)](https://gifyu.com/image/31V1)
+
+4. Feito isso, vamos agora usar essa connectionString do CosmosDb e colocar na nossa aplicação. Abram o Vs Code e coloquem a connectionString dentro do arquivo `database.js` como na imagem abaixo:
+
+[![workshop-3.gif](https://s2.gifyu.com/images/workshop-3.gif)](https://gifyu.com/image/31Zt)
+
+5. Agora, vamos incluir o Banco local **MongoDb** nessa connectionString. no final ela ficará dessa maneira (**após a porta 10255**)
+
+```
+> url: 'mongodb://<cosmosdb_name>:<primary_master_key>@<cosmosdb_name>.documents.azure.com:10255/workshop-lab2?ssl=true',
+```
+
+
 
 
 
