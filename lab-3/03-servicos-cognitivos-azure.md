@@ -165,7 +165,22 @@ LUIS_MODEL_URL=<cole-aqui-o-endpoint-criado-no-luis>
 > node pizzariaSampaMais.js
 ```
 
-5. Agora abre o **[Microsoft Bot Framework Emulator v.3](http://bit.ly/2G578HB)** conforme segue a imagem abaixo:
+5. Agora abre o **[Microsoft Bot Framework Emulator v.3](http://bit.ly/2G578HB)** conforme segue a execução da aplicação no gif abaixo:
+
+[![bot-builder-2d693a03251895391.gif](https://s2.gifyu.com/images/bot-builder-2d693a03251895391.gif)](https://gifyu.com/image/3oZA)
+
+## Palavras Finais
+
+Nesse laboratório, você pôde ser capaz em aprender sobre/como:
+
+* Introdução a ChatBots
+* Introdução a Serviços Cognitivos
+* Manipular o site do LUIS
+* Criar Intenções
+* Criar Entidades
+* Criar os Enunciados de suas respectivas Entidades
+* Conectar o Serviço Cognitivo NLP (LUIS) ao Chatbot
+
 
 
 
