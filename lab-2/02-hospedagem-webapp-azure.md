@@ -42,7 +42,6 @@ Observem que, tudo o que incluímos no browser, está gravando no MongoDb
 
 ## 2. Criando Grupo de Recursos
 
-
 1. Abre o **[Portal Azure](https://aka.ms/AA4qm7a)** com as mesmas credenciais criadas no laboratório 1
 
 2. Ao conectar com o Portal, vocês verão uma tela como da imagem abaixo:
@@ -72,8 +71,31 @@ Após isso, aparecerá um json informando que foi bem sucedido a criação do Re
 
 Uma das maiores vantagens de trabalhar com **[CosmosDb](https://aka.ms/AA4qm7e)** é que podemos persistir esses dados direto na nuvem, sem a necessidade de executar o MongoDb localmente. Mas, como fazemos isso? É o que iremos ver agora!
 
+1. Vamos criar uma conta BD no CosmosDb. Para isso, digite no Power Shell o seguinte comando
 
+```
+> az cosmosdb create --name node-teste-workshop --resource-group nodeTesteResourceGroupWorkshop --kind MongoDB 
+```
 
+Após a execução do comando acima, ele vai gerar um json informando que conseguimos criar uma conta no CosmosDb
+
+[![Screen-Shot-04-09-19-at-10-41-AM.png](https://i.postimg.cc/QtyKTVd1/Screen-Shot-04-09-19-at-10-41-AM.png)](https://postimg.cc/G8vp0LYm)
+
+2. Agora vamos conectar a App ao MongoDb de produção. Mas antes, vamos recuperar a chave do banco de dados. Para isso, basta executar o comando abaixo:
+
+```
+> az cosmosdb list-keys --name node-teste-workshop --resource-group nodeTesteResourceGroupWorkshop
+```
+
+Ao executar o comando acima, ele vai nos mostrar as chaves
+
+[![Screen-Shot-04-09-19-at-10-45-AM.png](https://i.postimg.cc/yNTbsCYw/Screen-Shot-04-09-19-at-10-45-AM.png)](https://postimg.cc/JyGq5gXq)
+
+Há uma maneira mais simples de listar essas keys. Observem no gif abaixo como
+
+[![workshop-1.gif](https://s2.gifyu.com/images/workshop-1.gif)](https://gifyu.com/image/31Vt)
+
+Nós vamos precisar do **Primary Password**. Assim que, copie e cole essa chave! 
 
 
 
