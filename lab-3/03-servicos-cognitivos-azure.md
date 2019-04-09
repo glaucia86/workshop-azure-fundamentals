@@ -12,7 +12,7 @@ Nesse laboratório estaremos integrando um **[Azure Bot Service](https://aka.ms/
 
 - **[3. Criando as Intenções no LUIS](#3-criando-as-intenções-no-luis)**
 
-- **[4. Criando as Entidades no LUIS](#4-criando- as-entidades-no-luis)**
+- **[4. Criando as Entidades no LUIS](#4-criando-as-entidades-no-luis)**
 
 - **[5. Criando os Enunciados no LUIS](#5-criando-os-enunciados-no-luis)**
 
