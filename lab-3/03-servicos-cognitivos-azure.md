@@ -12,7 +12,7 @@ Nesse laboratório estaremos integrando um **[Azure Bot Service](https://aka.ms/
 
 - **[3. Criando as Intenções no LUIS](#3-criando-as-intenções-no-luis)**
 
-- **[4. Criando as Entidades no LUIS](#4-criando- as-entidades-no-luis)**
+- **[4. Criando as Entidades no LUIS](#4-criando-as-entidades-no-luis)**
 
 - **[5. Criando os Enunciados no LUIS](#5-criando-os-enunciados-no-luis)**
 
@@ -79,7 +79,7 @@ Nesta parte, vamos criar as Intents (Intenções) da nossa aplicação. Nesse ca
 
 [![Screen-Shot-04-08-19-at-08-57-PM.png](https://i.postimg.cc/pLZVJzy8/Screen-Shot-04-08-19-at-08-57-PM.png)](https://postimg.cc/mPPGbcY2)
 
-3. No final deve estar cadastrada as 4 inteções no LUIS, conforme a imagem abaixo:
+3. No final teremos cadastradas as 4 intenções no LUIS, conforme a imagem abaixo:
 
 [![Screen-Shot-04-08-19-at-08-59-PM.png](https://i.postimg.cc/XYQ3CWDk/Screen-Shot-04-08-19-at-08-59-PM.png)](https://postimg.cc/DSJR99hS)
 
@@ -142,8 +142,6 @@ Agora vamos clicar em cada **Entidade** criada e vamos cadastrar algumas prováv
 7. Abrirá uma nova janela chamada: **Keys and Endpoints Settings**. Vamos até a coluna **Enpoint** e copiar:
 
 [![Screen-Shot-04-08-19-at-09-34-PM.png](https://i.postimg.cc/hPFSWgY2/Screen-Shot-04-08-19-at-09-34-PM.png)](https://postimg.cc/V5RyXymt)
-
-https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/0ffafa65-f287-4aa9-8444-52b33f6988a9?verbose=true&timezoneOffset=-360&subscription-key=6bba30d08ae840f9a2d9f503bb622cd7&q=
 
 Completamos a criação das: Entidades, Enunciados e Intenções. Agora vamos, conectar o que fizemos no LUIS ao nosso ChatBot
 
