@@ -79,7 +79,7 @@ Nesta parte, vamos criar as Intents (Intenções) da nossa aplicação. Nesse ca
 
 [![Screen-Shot-04-08-19-at-08-57-PM.png](https://i.postimg.cc/pLZVJzy8/Screen-Shot-04-08-19-at-08-57-PM.png)](https://postimg.cc/mPPGbcY2)
 
-3. No final deve estar cadastrada as 4 inteções no LUIS, conforme a imagem abaixo:
+3. No final teremos cadastradas as 4 intenções no LUIS, conforme a imagem abaixo:
 
 [![Screen-Shot-04-08-19-at-08-59-PM.png](https://i.postimg.cc/XYQ3CWDk/Screen-Shot-04-08-19-at-08-59-PM.png)](https://postimg.cc/DSJR99hS)
 
