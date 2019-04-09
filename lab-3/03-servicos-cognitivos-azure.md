@@ -143,8 +143,6 @@ Agora vamos clicar em cada **Entidade** criada e vamos cadastrar algumas prováv
 
 [![Screen-Shot-04-08-19-at-09-34-PM.png](https://i.postimg.cc/hPFSWgY2/Screen-Shot-04-08-19-at-09-34-PM.png)](https://postimg.cc/V5RyXymt)
 
-https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/0ffafa65-f287-4aa9-8444-52b33f6988a9?verbose=true&timezoneOffset=-360&subscription-key=6bba30d08ae840f9a2d9f503bb622cd7&q=
-
 Completamos a criação das: Entidades, Enunciados e Intenções. Agora vamos, conectar o que fizemos no LUIS ao nosso ChatBot
 
 ## 6. Conectando o LUIS com ChatBot
