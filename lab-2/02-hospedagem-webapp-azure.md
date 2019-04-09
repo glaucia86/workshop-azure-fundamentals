@@ -8,7 +8,9 @@ Nesse Laboratório estaremos integrando uma aplicação MEAN (Mongo, Express, An
 
 - **[1. Executando a Aplicação MEAN](#1-executando-a-aplicação-mean)**
 
-- **[2. Colocando a Base de Dados na Nuvem com CosmosDb](#2-colocando-a-base-de-dados-na-nuvem-com-cosmosdb)**
+- **[2. Criando Grupo de Recursos](#2-criando-grupo-de-recursos)**
+
+- **[3. Migrando a Base de Dados Local para Nuvem com CosmosDb](#3-migrando-a-base-de-dados-local-para-nuvem-com-cosmosdb)**
 
 
 ## 1. Executando a Aplicação MEAN
@@ -38,9 +40,8 @@ Observem que, tudo o que incluímos no browser, está gravando no MongoDb
 [![Screen-Shot-04-08-19-at-10-45-PM.png](https://i.postimg.cc/q7XW6HBx/Screen-Shot-04-08-19-at-10-45-PM.png)](https://postimg.cc/67qMFSv8)
 
 
-## 2. Colocando a Base de Dados na Nuvem com CosmosDb
+## 2. Criando Grupo de Recursos
 
-Uma das maiores vantagens de trabalhar com **[CosmosDb](https://aka.ms/AA4qm7e)** é que podemos persistir esses dados direto na nuvem, sem a necessidade de executar o MongoDb. Mas, como fazemos isso? É o que iremos ver agora!
 
 1. Abre o **[Portal Azure](https://aka.ms/AA4qm7a)** com as mesmas credenciais criadas no laboratório 1
 
@@ -59,9 +60,17 @@ Uma das maiores vantagens de trabalhar com **[CosmosDb](https://aka.ms/AA4qm7e)*
 5. Agora com o Power Shell aberto, vamos criar um **[Resource Group](https://aka.ms/AA4qh09)**. Para isso, digite o comando abaixo no Power Shell:
 
 ```
-> az group create --name testeResourceGroupWorkshop --location "Brazil South"
+> az group create --name nodeTesteResourceGroupWorkshop --location "Brazil South"
 ``` 
 
+Após isso, aparecerá um json informando que foi bem sucedido a criação do Resource Group
+
+[![Screen-Shot-04-09-19-at-10-23-AM.png](https://i.postimg.cc/k5KrWS4d/Screen-Shot-04-09-19-at-10-23-AM.png)](https://postimg.cc/KKGs2RB9)
+
+
+## 3. Migrando a Base de Dados Local para Nuvem com CosmosDb
+
+Uma das maiores vantagens de trabalhar com **[CosmosDb](https://aka.ms/AA4qm7e)** é que podemos persistir esses dados direto na nuvem, sem a necessidade de executar o MongoDb localmente. Mas, como fazemos isso? É o que iremos ver agora!
 
 
 
