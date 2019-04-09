@@ -16,7 +16,7 @@ const port = process.env.PORT || 8000;
 // const database = require('./config/databaseCosmosDb'); // conexao base de dados CosmosDb
 const database = require('./config/database'); // conexão local com o base de dados MongoDb
 
-mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true }); // conexao base de dados CosmosDb
+// mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true }); // conexao base de dados CosmosDb
 // mongoose.connect(database.local.localUrl, { useNewUrlParser: true }); // conexão local com o base de dados MongoDb
 
 app.use(express.static('./front-end'));

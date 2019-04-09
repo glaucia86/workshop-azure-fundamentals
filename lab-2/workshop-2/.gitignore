@@ -10,4 +10,5 @@ npm-debug.log
 .LSOverride
 
 # DB Connection String
-./config/
+config/databaseCosmosdb.js
+config/
