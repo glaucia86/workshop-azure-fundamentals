@@ -1,7 +1,7 @@
 /**
  * Arquivo: config/database.js
  * Descrição: Arquivo responsável pelas connectionStrings da aplicação com o MongoDb
- *  & CosmosDb
+ *  & CosmosDb -- testando
  * Data: 07/04/2019
  * Author: Glaucia Lemos
  */
