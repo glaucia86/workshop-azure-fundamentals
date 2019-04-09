@@ -12,6 +12,10 @@ Nesse Laboratório estaremos integrando uma aplicação MEAN (Mongo, Express, An
 
 - **[3. Migrando a Base de Dados Local para Nuvem com CosmosDb](#3-migrando-a-base-de-dados-local-para-nuvem-com-cosmosdb)**
 
+- **[4. Importando os dados localmente do MongoDb para o CosmosDb](#3-importando-os-dados-localmente-do-mongodb- para-o-cosmosdb)**
+
+- **[5. Hospedando Aplicação MEAN na Nuvem com Azure]()**
+
 
 ## 1. Executando a Aplicação MEAN
 
@@ -138,11 +142,113 @@ module.exports = {
 mongoose.connect(database.cosmosdb.url, { useNewUrlParser: true }); // conexao base de dados CosmosDb
 ```
 
+7. Agora podemos testar se de fato a nossa aplicação está persistindo no CosmosDb. Para realizar o teste vamos executar a aplicação e criar novas tarefas e depois abre o Portal Azure e vá até: `CosmosDb -> Data Explorer -> Documents` para ver se os dados foram persistidos na nuvem
+
+[![workshop-4.gif](https://s2.gifyu.com/images/workshop-4.gif)](https://gifyu.com/image/31tl)
+
+## 4. Importando os dados localmente do MongoDb para o CosmosDb
+
+Agora, vamos importar para o CosmosDb o que já persistimos localmente no MongoDb.
+
+1. Abre o prompt de comando no seu computador e execute o seguinte comando abaixo:
+
+```
+> mongoexport.exe --host localhost --db workshop-lab2 --collection todos --out todos.json
+```
+
+Após executar o comando abaixo, aparecerá a seguinte informação: (foram exportados os infos)
+
+[![Screen-Shot-04-09-19-at-02-57-PM.png](https://i.postimg.cc/RVgQBZTw/Screen-Shot-04-09-19-at-02-57-PM.png)](https://postimg.cc/svZZPyq2)
+
+2. Agora vamos passar essas infos para o CosmosDb. Você precisará das seguintes informações:
+
+* Host
+* Port
+* Username
+* Primary Password
+
+Para obter todas essas informações, bastam seguir conforme a imagem abaixo:
+
+[![Screen-Shot-04-09-19-at-03-01-PM.png](https://i.postimg.cc/85bwfBL0/Screen-Shot-04-09-19-at-03-01-PM.png)](https://postimg.cc/mzt709XY)
+
+Agora, execute o comando abaixo no prompt de comando:
+
+```
+> mongoimport.exe --host node-teste-workshop.documents.azure.com:10255 -u node-teste-workshop -p <seu-password-criado-no-cosmosdb> --ssl --sslAllowInvalidCertificates --db workshop-lab2 --collection todos --file todos.json
+```
+
+Se aparecer como a imagem abaixo é porque os dados locais foram exportados com sucesso ao CosmosDb
+
+[![Screen-Shot-04-09-19-at-03-21-PM.png](https://i.postimg.cc/j542Vv7v/Screen-Shot-04-09-19-at-03-21-PM.png)](https://postimg.cc/9RzCZd1q)
+
+3. Agora execute a aplicação novamente e veja se todos os dados aparecerão - tanto os que estavam localmente e foram migrados para o CosmosDb
+
+[![Screen-Shot-04-09-19-at-03-42-PM.png](https://i.postimg.cc/MpjfX7Bb/Screen-Shot-04-09-19-at-03-42-PM.png)](https://postimg.cc/dhwVxT4L)
 
 
+## 5. Hospedando Aplicação MEAN na Nuvem com Azure
 
+Agora, enfim, iremos hospedar a nossa aplicação na nuvem. Para isso:
 
+1. Abram o Portal Azure novamente e executem o seguinte comando no Power Shell: (user name deve ser exclusivo)
 
+```
+> az webapp deployment user set --user-name glau741852 --password Fl@mengo
+```
+
+Se tudo der certo, aparecerá a mensagem abaixo:
+
+[![Screen-Shot-04-09-19-at-03-57-PM.png](https://i.postimg.cc/ZnnpH07T/Screen-Shot-04-09-19-at-03-57-PM.png)](https://postimg.cc/tn0sCRGf)
+
+2. Agora, vamos criar um plano de Serviço de Aplicativo. Para isso, execute o comando abaixo:
+
+```
+> az appservice plan create --name testeTodoAppServicePlan --resource-group nodeTesteResourceGroupWorkshop --sku FREE
+```
+
+Se aparecer a mensagem: **Succeeded** é porque foi criado com Sucesso!
+
+[![Screen-Shot-04-09-19-at-04-05-PM.png](https://i.postimg.cc/NM2vhkPS/Screen-Shot-04-09-19-at-04-05-PM.png)](https://postimg.cc/MMwFVVwm)
+
+3. Agora vamos criar um aplicativo web. Para isso, execute o seguinte comando abaixo: executar o comando abaixo no: **BASH**
+
+```
+> az webapp create --resource-group nodeTesteResourceGroupWorkshop --plan testeTodoAppServicePlan --name teste-todo-workshop --runtime "NODE|6.9" --deployment-local-git
+```
+
+[![Screen-Shot-04-09-19-at-04-28-PM.png](https://i.postimg.cc/8CcLSZg1/Screen-Shot-04-09-19-at-04-28-PM.png)](https://postimg.cc/ns8XKYL5)
+
+4. Nesse json que apresentou acima, guarde a seguinte informação, pois vamos precisar dele futuramente
+
+```
+"deploymentLocalGitUrl": "https://glau741852@teste-todo-workshop.scm.azurewebsites.net/teste-todo-workshop.git",
+```
+
+5. Retorne ao Power Shell, pois agora iremos configurar as variáveis de ambiente. Para isso, execute o comando abaixo:
+
+```
+> az webapp config appsettings set --name teste-todo-workshop --resource-group nodeTesteResourceGroupWorkshop --settings MONGODB_URI="mongodb://node-teste-workshop:gNh5isbOlnVnIQ6CYfroiWY9nJXgTCy3eANP5zl6WDwlew5JKdTVvjPMOoVEvthAf3wzgqBDYMlRNA1zBGlxZg%3D%3D@node-teste-workshop.documents.azure.com:10255/workshop-lab2?ssl=true"
+```
+
+Após executar o passo acima, vai gerar o json abaixo
+
+[![Screen-Shot-04-09-19-at-04-38-PM-001.png](https://i.postimg.cc/FH47pDHP/Screen-Shot-04-09-19-at-04-38-PM-001.png)](https://postimg.cc/hf2DP8xx)
+
+6. Agora, estamos quase acabando. Voltemos para a nossa aplicação e vamos fazer o push das informações para o Azure. Abre o terminal no VS Code e execute o comando abaixo:
+
+**dentro da pasta lab-2\workshop-2**
+
+```
+> git remote add azure https://glau741852@teste-todo-workshop.scm.azurewebsites.net/teste-todo-workshop.git
+```
+
+E depois executar o comando:
+
+```
+> git push azure master
+```
+
+7. Agora abre a url da aplicação: `https://teste-todo-workshop.azurewebsites.net`
 
 
 
