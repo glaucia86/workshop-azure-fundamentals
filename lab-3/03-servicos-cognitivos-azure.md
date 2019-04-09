@@ -167,7 +167,7 @@ LUIS_MODEL_URL=<cole-aqui-o-endpoint-criado-no-luis>
 
 5. Agora abre o **[Microsoft Bot Framework Emulator v.3](http://bit.ly/2G578HB)** conforme segue a execução da aplicação no gif abaixo:
 
-[![bot-builder-2d693a03251895391.gif](https://s2.gifyu.com/images/bot-builder-2d693a03251895391.gif)](https://gifyu.com/image/3oZA)
+[![bot-builder-3.gif](https://s2.gifyu.com/images/bot-builder-3.gif)](https://gifyu.com/image/3oZe)
 
 ## Palavras Finais
 
