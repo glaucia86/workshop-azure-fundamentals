@@ -30,7 +30,7 @@ Depois bastam abrir o browser em: **localhost:8000**
 
 ## Demo da Aplicação (Online) ⭐️
 
-Caso desejam visualizar a demo em produção, com a integração com Azure & CosmosDb, bastam acessar o link **[AQUI](https://mean-todo-list-explorandoti.azurewebsites.net/)**.
+Caso desejam visualizar a demo em produção, com a integração com Azure & CosmosDb, bastam acessar o link **[AQUI](https://teste-todo-lab-workshop.azurewebsites.net/)**.
 
 
 ## Dúvidas?! ❓
