@@ -9,12 +9,12 @@
 module.exports = {
   local:
   {
-    localUrl: 'mongodb://localhost/workshop-lab2',
+    localUrl: 'mongodb://localhost/workshop-lab-2-db',
   },
 
   cosmosdb: {
     name: 'node-teste-workshop',
-    url: 'mongodb://node-teste-workshop:gNh5isbOlnVnIQ6CYfroiWY9nJXgTCy3eANP5zl6WDwlew5JKdTVvjPMOoVEvthAf3wzgqBDYMlRNA1zBGlxZg%3D%3D@node-teste-workshop.documents.azure.com:10255/workshop-lab2?ssl=true',
+    url: 'mongodb://node-teste-lab-workshop:Co7BP2wSJzyZMzW5OcHEJPvVGHjU50bZz3IjbOGMbqP5YVid1WrSxMdzNiNZYOrAzmQyhwPq8NpzW1EVR79ltQ==@node-teste-lab-workshop.documents.azure.com:10255/workshop-lab-2-db?ssl=true&replicaSet=globaldb',
     port: 10255,
   },
 };
