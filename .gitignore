@@ -1,0 +1,15 @@
+build/
+# Commonly ignored Node.js files
+node_modules/
+npm-debug.log
+.npm/
+
+# OSX system files, the bane of our existence
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# DB Connection String
+# no momento de realizar o commit final do projeto executar o comando abaixo:
+# git rm lab-2/workshop-2/config/databaseCosmosdb.js
+config/databaseCosmosdb.js
