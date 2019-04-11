@@ -31,7 +31,7 @@ Nesse Laboratório estaremos integrando uma aplicação MEAN (Mongo, Express, An
 
 [![Screen-Shot-04-08-19-at-10-39-PM.png](https://i.postimg.cc/d04T0DCR/Screen-Shot-04-08-19-at-10-39-PM.png)](https://postimg.cc/hJQGyDph)
 
-3. Feio isso, abre o browser em: `http://localhost:8000/` e comece a incluir algumas tarefas nessa lista
+3. Feito isso, abre o browser em: `http://localhost:8000/` e comece a incluir algumas tarefas nessa lista
 
 [![Screen-Shot-04-08-19-at-10-43-PM.png](https://i.postimg.cc/QMHWHhJR/Screen-Shot-04-08-19-at-10-43-PM.png)](https://postimg.cc/qtH7FfYL)
 
