@@ -6,15 +6,21 @@ Nesse Laboratório estaremos aprendendo a criar uma conta no **[Portal Azure](ht
 
 ## Agenda - Lab 01
 
-## Criando uma Conta no Azure
+- **[1. Criando uma Conta no Azure](#1-criando-uma-conta-no-azure)**
+- **[2. Overview do Portal Azure](#2-overview-do-portal-azure)**
+- **[3. Azure Cloud Shell](#3-azure-cloud-shell)**
+- **[4. Criando um Resource Group](#4-criando-um-resource-group)**
+
+
+## 1. Criando uma Conta no Azure
 
 https://azure.microsoft.com/pt-br/resources/videos/ignite-2018-getting-started-with-microsoft-azure-and-azure-portal/
 
-## Overview do Portal Azure
+## 2. Overview do Portal Azure
 
 https://azure.microsoft.com/pt-br/resources/videos/ignite-2018-getting-started-with-microsoft-azure-and-azure-portal/
 
-## Azure Cloud Shell
+## 3. Azure Cloud Shell
 
 - QuickStarts (fazer esses tutos aqui!!!):
 
@@ -22,7 +28,7 @@ https://docs.microsoft.com/pt-br/azure/cloud-shell/overview
 
 https://docs.microsoft.com/pt-br/azure/cloud-shell/overview
 
-## Criando um Resource Group (Gerenciador de Recursos)
+## 4. Criando um Resource Group (Gerenciador de Recursos)
 
 https://docs.microsoft.com/pt-br/azure/azure-resource-manager/resource-group-overview#terminology
 
