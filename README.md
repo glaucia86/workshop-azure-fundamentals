@@ -28,7 +28,7 @@ O objetivo principal desse Workshop é ensinar os Conceitos Fundamentais do Azur
 
 Durante o workshop estaremos trabalhando com 3 Laboratórios, que tem como principal objetivo integrar as aplicações e serviços na plataforma Azure.
 
-- **[Laboratório 1 - Criando conta no Azure](./lab-1/workshop-1)**
+- **[Laboratório 1 - Criando conta no Azure](lab-1/01-introducao-azure.md)**
 - **[Laboratório 2 - TODO-LIST MEAN](./lab-2/workshop-2/README.md)**
 - **[Laboratório 3 - Pedido de Pizzas SampaMais](./lab-3/workshop-3/README.md)**
 
