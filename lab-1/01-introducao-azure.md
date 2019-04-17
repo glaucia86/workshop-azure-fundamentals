@@ -14,27 +14,26 @@ Nesse Laboratório estaremos aprendendo a criar uma conta no **[Portal Azure](ht
 
 ## 1. Criando uma Conta no Azure
 
-https://azure.microsoft.com/pt-br/resources/videos/ignite-2018-getting-started-with-microsoft-azure-and-azure-portal/
+[Criando uma Conta no Azure](https://azure.microsoft.com/pt-br/resources/videos/ignite-2018-getting-started-with-microsoft-azure-and-azure-portal/?wt.mc_id=workshop-azure-fundamentals-github-gllemos)
 
 ## 2. Overview do Portal Azure
 
-https://azure.microsoft.com/pt-br/resources/videos/ignite-2018-getting-started-with-microsoft-azure-and-azure-portal/
+[Overview do Portal Azure](https://azure.microsoft.com/pt-br/resources/videos/ignite-2018-getting-started-with-microsoft-azure-and-azure-portal/?wt.mc_id=workshop-azure-fundamentals-github-gllemos)
 
 ## 3. Azure Cloud Shell
 
 - QuickStarts (fazer esses tutos aqui!!!):
 
-https://docs.microsoft.com/pt-br/azure/cloud-shell/overview
+[QuickStarts](https://docs.microsoft.com/pt-br/azure/cloud-shell/overview?wt.mc_id=workshop-azure-fundamentals-github-gllemos)
 
-https://docs.microsoft.com/pt-br/azure/cloud-shell/overview
 
 ## 4. Criando um Resource Group (Gerenciador de Recursos)
 
-https://docs.microsoft.com/pt-br/azure/azure-resource-manager/resource-group-overview#terminology
+[Criando um Resource Group](https://docs.microsoft.com/pt-br/azure/azure-resource-manager/resource-group-overview#terminology?wt.mc_id=workshop-azure-fundamentals-github-gllemos)
 
-https://docs.microsoft.com/pt-br/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal
+[QuickStart - Criando um Resource Group](https://docs.microsoft.com/pt-br/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal?wt.mc_id=workshop-azure-fundamentals-github-gllemos)
 
-https://www.youtube.com/watch?v=favhwFCx2VU
+[Video sobre Resource Group](https://www.youtube.com/watch?v=favhwFCx2VU)
 
 
 
