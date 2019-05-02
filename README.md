@@ -2,7 +2,7 @@
 
 [![Azure.png](https://i.postimg.cc/905vxqhG/Azure.png)](https://postimg.cc/ZBH7nn0R)
 
-Repositório responsável pelo Workshop do Hackathon de Acessibilidade para ensinar os conceitos Fundamentais de Azure.
+Repositório responsável para ensinar os conceitos Fundamentais de Azure em forma de Workshop ou Hands-on lab.
 
 ## Recursos Utilizados 🚀
 
