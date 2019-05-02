@@ -1,4 +1,4 @@
-# Workshop - Fundamentos de Azure
+# Workshop - Fundamentos do Azure
 
 [![Azure.png](https://i.postimg.cc/905vxqhG/Azure.png)](https://postimg.cc/ZBH7nn0R)
 
