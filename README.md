@@ -12,7 +12,7 @@ Para os laboratórios que iremos realizar, precisaremos ter instalado em suas m�
 - **[Node.js](https://nodejs.org/en/)**
 - **[Git](https://git-scm.com/)**
 - **[Azure Bot Service](https://aka.ms/AA4qm7p)**
-- **[Azure App Service](https://aka.ms/AA4qm7c)**
+- **[Azure App Service](https://aka.ms/AA55oxc)**
 - **[Serviços Cognitivos](https://aka.ms/AA4qm7k)**
 - **[Microsoft Bot Framework Emulator v.3](http://bit.ly/2G578HB)**
 - **[MongoDb Community Server](https://www.mongodb.com/download-center/community)**
@@ -21,7 +21,7 @@ Para os laboratórios que iremos realizar, precisaremos ter instalado em suas m�
 
 ## Sobre o Workshop 📌
 
-O objetivo principal desse Workshop é ensinar os Conceitos Fundamentais do Azure. Como por exemplo: como criar uma conta no **[Portal Azure](https://aka.ms/AA4qm7a)**, como hospedar uma Aplicação Web no **[Azure App Service](https://aka.ms/AA4qm7c)** e no final estaremos ensinando como integrar um **[Azure Bot Service](https://aka.ms/AA4qm7p)**, ChatBot, com a plataforma do **[LUIS](https://aka.ms/AA4pzn2)**
+O objetivo principal desse Workshop é ensinar os Conceitos Fundamentais do Azure. Como por exemplo: como criar uma conta no **[Portal Azure](https://aka.ms/AA4qm7a)**, como hospedar uma Aplicação Web no **[Azure App Service](https://aka.ms/AA55oxc)** e no final estaremos ensinando como integrar um **[Azure Bot Service](https://aka.ms/AA4qm7p)**, ChatBot, com a plataforma do **[LUIS](https://aka.ms/AA4pzn2)**
 
 
 ## Laboratórios 💻
@@ -40,7 +40,7 @@ Nessa seção aprenderemos todos os conceitos básicos do Azure! A qual começar
 
 ### [2 - Hospedagem de Aplicações Web no Azure: Laboratório 2 - TODO-LIST MEAN (Mongo, Express, Angular & Node.js)](lab-2/02-hospedagem-webapp-azure.md)
 
-Nessa seção implantaremos nossa primeira aplicação Web aos serviços Azure usando o **[Azure App Service](https://aka.ms/AA4qm7c)** integrado com o **[CosmosDb](https://aka.ms/AA4qm7e)**
+Nessa seção implantaremos nossa primeira aplicação Web aos serviços Azure usando o **[Azure App Service](https://aka.ms/AA55oxc)** integrado com o **[CosmosDb](https://aka.ms/AA4qm7e)**
 
 ### [3 - Serviços Cognitivos: Laboratório 3 - ChatBot Pedido de Pizzas SampaMais](lab-3/03-servicos-cognitivos-azure.md)
 
