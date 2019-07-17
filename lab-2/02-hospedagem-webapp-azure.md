@@ -234,7 +234,7 @@ Após executar o passo acima, vai gerar o json abaixo
 
 [![Screen-Shot-04-09-19-at-04-38-PM-001.png](https://i.postimg.cc/FH47pDHP/Screen-Shot-04-09-19-at-04-38-PM-001.png)](https://postimg.cc/hf2DP8xx)
 
-6. Agora, estamos quase acabando. Voltemos para a nossa aplicação e vamos fazer o push das informações para o Azure. Abre o terminal no VS Code e execute o comando abaixo:
+6. Agora, estamos quase acabando. Voltemos para a nossa aplicação e vamos fazer o push das informações para o Azure. Abre o terminal no Visual Studio Code e execute o comando abaixo:
 
 **dentro da pasta lab-2\workshop-2**
 
